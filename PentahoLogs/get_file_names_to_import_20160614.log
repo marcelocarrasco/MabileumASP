@@ -1,0 +1,2861 @@
+2016/06/14 16:51:32 - Get File Names To Import - Loading transformation from XML file [file:///home/oracle/MobileumASP/PentahoSourceFiles/GetFileNamesToImport.ktr]
+2016/06/14 16:51:32 - GetFileNamesToImport - Dispatching started for transformation [GetFileNamesToImport]
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 1------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160217.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 503
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 2------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160218.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1184
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 3------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160219.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1200
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 4------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160220.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1173
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 5------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160221.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1080
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 6------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160222.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1199
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 7------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160223.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1202
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 8------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160224.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1228
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 9------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160225.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1230
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 10------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160226.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1233
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 11------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160227.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1218
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 12------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160228.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1115
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 13------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160229.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1241
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 14------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160301.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1213
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 15------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160302.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1233
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 16------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160303.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1235
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 17------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160304.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1236
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 18------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160305.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1229
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 19------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160306.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1120
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 20------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160307.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1241
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 21------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160308.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1240
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 22------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160309.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1241
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 23------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160310.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1244
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 24------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160311.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1248
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 25------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160312.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1232
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 26------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160313.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1125
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 27------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160314.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1244
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 28------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160315.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1246
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 29------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160316.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1249
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 30------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160317.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1249
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 31------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160318.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1244
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 32------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160319.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1227
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 33------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160320.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1095
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 34------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160321.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1240
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 35------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160322.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1252
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 36------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160323.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1257
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 37------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160324.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1220
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 38------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160325.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1172
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 39------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160326.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1236
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 40------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160327.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1137
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 41------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160328.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1254
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 42------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160329.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1256
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 43------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160330.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1251
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 44------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160331.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1223
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 45------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160401.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1215
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 46------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160402.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1187
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 47------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160403.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1168
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 48------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160404.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1243
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 49------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160405.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1236
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 50------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160406.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1239
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 51------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160407.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1256
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 52------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160408.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1243
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 53------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160409.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1283
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 54------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160410.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1230
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 55------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160411.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1307
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 56------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160412.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1309
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 57------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160413.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1309
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 58------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160414.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1267
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 59------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160415.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1317
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 60------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160416.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1308
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 61------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160417.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1239
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 62------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160418.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1314
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 63------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160419.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1319
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 64------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160420.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1318
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 65------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160421.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1319
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 66------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160422.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1315
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 67------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160423.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1305
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 68------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160424.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1245
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 69------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160425.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1319
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 70------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160426.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1324
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 71------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160427.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1325
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 72------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160428.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1333
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 73------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160429.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1332
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 74------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160430.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1313
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 75------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160501.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1242
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 76------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160502.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1323
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 77------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160503.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1325
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 78------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160504.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1327
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 79------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160505.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1329
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 80------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160506.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1334
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 81------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160507.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1313
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 82------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160508.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1252
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 83------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160509.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1337
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 84------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160510.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 605
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 85------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160511.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 774
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 86------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160512.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1329
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 87------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160513.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1331
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 88------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160514.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1318
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 89------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160515.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1255
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 90------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160516.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1326
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 91------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160517.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1327
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 92------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160518.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1331
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 93------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160519.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1333
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 94------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160520.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1337
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 95------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160521.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1323
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 96------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160522.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1262
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 97------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160523.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1336
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 98------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160524.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1339
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 99------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160525.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1323
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 100------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160526.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1336
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 101------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160527.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1339
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 102------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160528.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1328
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 103------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160529.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1277
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 104------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160530.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1345
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 105------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160531.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1340
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 106------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160601.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1341
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 107------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160602.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1336
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 108------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160603.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1343
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 109------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160604.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1321
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 110------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160605.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1263
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 111------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160606.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1334
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 112------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160607.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1334
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 113------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160608.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1331
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 114------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160609.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1330
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 115------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160610.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 831
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 116------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160611.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 117------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160612.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 488
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 118------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160613.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1340
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 119------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/ARG-20160614.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 941
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 120------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160217.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 121------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160218.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 122------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160219.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 123------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160220.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 124------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160221.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 125------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160222.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 126------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160223.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 127------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160224.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 128------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160225.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 129------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160226.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 130------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160227.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 131------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160228.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 132------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160229.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 133------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160301.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 134------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160302.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 135------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160303.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 136------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160304.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 137------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160305.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 138------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160306.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 139------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160307.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 140------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160308.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 141------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160309.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 142------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160310.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 143------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160311.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 144------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160312.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 145------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160313.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 146------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160314.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 147------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160315.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 148------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160316.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 149------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160317.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 150------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160318.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 151------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160319.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 152------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160320.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 153------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160321.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 154------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160322.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 155------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160323.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 156------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160324.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 157------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160325.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 158------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160326.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 159------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160327.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 160------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160328.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 161------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160329.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 162------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160330.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 163------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160331.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 164------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160401.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 165------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160402.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 166------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160403.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 167------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160404.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 168------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160405.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 169------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160406.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 170------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160407.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 171------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160408.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 172------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160409.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 173------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160410.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 174------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160411.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 175------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160412.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 176------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160413.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 177------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160414.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 178------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160415.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 179------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160416.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 180------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160417.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 181------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160418.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 182------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160419.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 183------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160420.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 184------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160421.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 185------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160422.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 186------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160423.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 187------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160424.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 188------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160425.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 189------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160426.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 190------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160427.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 191------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160428.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 192------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160429.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 193------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160430.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 194------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160501.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 195------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160502.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 196------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160503.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 197------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160504.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1032
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 198------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160505.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1070
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 199------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160506.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1071
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 200------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160507.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1071
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 201------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160508.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1073
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 202------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160509.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1070
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 203------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160510.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 536
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 204------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160511.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 629
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 205------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160512.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1087
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 206------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160513.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1088
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 207------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160514.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1093
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 208------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160515.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1091
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 209------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160516.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1087
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 210------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160517.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1086
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 211------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160518.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1086
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 212------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160519.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1087
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 213------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160520.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1088
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 214------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160521.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1089
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 215------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160522.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1089
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 216------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160523.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1087
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 217------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160524.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1086
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 218------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160525.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1087
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 219------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160526.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1087
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 220------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160527.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1088
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 221------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160528.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1090
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 222------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160529.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1089
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 223------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160530.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1087
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 224------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160531.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1087
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 225------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160601.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1087
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 226------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160602.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1087
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 227------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160603.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1088
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 228------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160604.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1091
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 229------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160605.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1090
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 230------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160606.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1087
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 231------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160607.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1086
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 232------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160608.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1087
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 233------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160609.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1087
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 234------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160610.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 699
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 235------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160611.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 236------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160612.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 435
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 237------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160613.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1087
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 238------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/PRY-20160614.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 776
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 239------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160217.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 240------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160218.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 241------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160219.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 242------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160220.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 243------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160221.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 244------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160222.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 245------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160223.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 246------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160224.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 247------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160225.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 248------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160226.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 249------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160227.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 250------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160228.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 251------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160229.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 252------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160301.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 253------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160302.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Get Mobileum File Names.0 - Finished processing (I=0, O=0, R=0, W=357, U=0, E=0)
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 254------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160303.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 255------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160304.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 256------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160305.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 257------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160306.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 258------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160307.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 259------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160308.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 260------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160309.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 261------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160310.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 262------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160311.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 263------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160312.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 264------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160313.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 265------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160314.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 266------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160315.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 267------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160316.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 268------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160317.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 269------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160318.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 270------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160319.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 271------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160320.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 272------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160321.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 273------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160322.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 274------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160323.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 275------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160324.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 276------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160325.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 277------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160326.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 278------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160327.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 279------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160328.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 280------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160329.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 281------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160330.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 282------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160331.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 283------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160401.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 284------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160402.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 285------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160403.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 286------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160404.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 287------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160405.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 288------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160406.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 289------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160407.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 290------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160408.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 291------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160409.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 292------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160410.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 293------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160411.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 294------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160412.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 295------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160413.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 296------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160414.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 297------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160415.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 298------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160416.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 299------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160417.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 300------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160418.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 301------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160419.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 302------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160420.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 303------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160421.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 304------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160422.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 305------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160423.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 306------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160424.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 307------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160425.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 308------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160426.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 309------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160427.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 985
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 310------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160428.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1058
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 311------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160429.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1058
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 312------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160430.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1052
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 313------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160501.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1050
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 314------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160502.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1058
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 315------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160503.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1058
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 316------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160504.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1063
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 317------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160505.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1064
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 318------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160506.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1065
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 319------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160507.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1067
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 320------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160508.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1065
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 321------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160509.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1071
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 322------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160510.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 536
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 323------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160511.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 621
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 324------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160512.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1071
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 325------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160513.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1070
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 326------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160514.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1070
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 327------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160515.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1070
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 328------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160516.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 995
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 329------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160517.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1070
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 330------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160518.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1070
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 331------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160519.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1070
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 332------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160520.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1070
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 333------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160521.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1070
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 334------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160522.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1069
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 335------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160523.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1070
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 336------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160524.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1070
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 337------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160525.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 991
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 338------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160526.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1070
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 339------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160527.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1070
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 340------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160528.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1070
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 341------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160529.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1069
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 342------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160530.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1070
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 343------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160531.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1071
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 344------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160601.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1071
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 345------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160602.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1070
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 346------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160603.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1070
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 347------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160604.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1070
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 348------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160605.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1069
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 349------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160606.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1074
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 350------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160607.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1085
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 351------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160608.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1125
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 352------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160609.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1130
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 353------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160610.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 716
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 354------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160611.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 0
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 355------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160612.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 430
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 356------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160613.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 1130
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ------------> Linenr 357------------------------------
+2016/06/14 16:51:32 - Write to log.0 - File Names:
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - filename = /home/oracle/MobileumASP/hourly_stats/URY-20160614.csv
+2016/06/14 16:51:32 - Write to log.0 - size = 801
+2016/06/14 16:51:32 - Write to log.0 - 
+2016/06/14 16:51:32 - Write to log.0 - ====================
+2016/06/14 16:51:32 - Write to log.0 - Finished processing (I=0, O=0, R=357, W=357, U=0, E=0)
+2016/06/14 16:51:32 - Copy rows to result.0 - Finished processing (I=0, O=0, R=357, W=357, U=0, E=0)

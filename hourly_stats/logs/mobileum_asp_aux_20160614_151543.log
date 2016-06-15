@@ -1,0 +1,121 @@
+fecha;CNT_LLAMADAS;CNT_POLITICA_RESTRICCION;CNT_BOLQ_REL_TIPO_GEST;CNT_BLOQ_RAN_REL;CNT_PERMITIERON_CONTINUAR;CNT_CONECTADAS_VOICE_MAIL;CNT_CONECTADA_ANUNCIO_SWITCH;NOMBRE_CSV;nroErrors;errDesc;errFieldName;errCode
+13/06/2016 00:00:00;345133;448;0;180;268;0;0;/home/oracle/MobileumASP/hourly_stats/ARG-20160613.csv;1;org.pentaho.di.core.exception.KettleDatabaseException: 
+offending row : [FECHA Date<binary-string>], [CNT_LLAMADAS Number<binary-string>], [CNT_POLITICA_RESTRICCION Number<binary-string>], [CNT_BOLQ_REL_TIPO_GEST Number<binary-string>], [CNT_BLOQ_RAN_REL Number<binary-string>], [CNT_PERMITIERON_CONTINUAR Number<binary-string>], [CNT_CONECTADAS_VOICE_MAIL Number<binary-string>], [CNT_CONECTADA_ANUNCIO_SWITCH Number<binary-string>], [ARCHIVO String<binary-string>]
+
+Error setting value #1 [Date<binary-string>] on prepared statement
+
+fecha String : couldn't convert string [13/06/2016 00:00:00] to a date using format [dd/MM/yyyy hh:mm:ss] on offset location 13
+13/06/2016 00:00:00
+
+
+;;TOP001
+13/06/2016 13:00:00;2895310;171574;0;85579;85995;0;0;/home/oracle/MobileumASP/hourly_stats/ARG-20160613.csv;1;org.pentaho.di.core.exception.KettleDatabaseException: 
+offending row : [FECHA Date<binary-string>], [CNT_LLAMADAS Number<binary-string>], [CNT_POLITICA_RESTRICCION Number<binary-string>], [CNT_BOLQ_REL_TIPO_GEST Number<binary-string>], [CNT_BLOQ_RAN_REL Number<binary-string>], [CNT_PERMITIERON_CONTINUAR Number<binary-string>], [CNT_CONECTADAS_VOICE_MAIL Number<binary-string>], [CNT_CONECTADA_ANUNCIO_SWITCH Number<binary-string>], [ARCHIVO String<binary-string>]
+
+Error setting value #1 [Date<binary-string>] on prepared statement
+
+fecha String : couldn't convert string [13/06/2016 13:00:00] to a date using format [dd/MM/yyyy hh:mm:ss] on offset location 13
+13/06/2016 13:00:00
+
+
+;;TOP001
+13/06/2016 14:00:00;2277309;157902;0;78760;79142;0;0;/home/oracle/MobileumASP/hourly_stats/ARG-20160613.csv;1;org.pentaho.di.core.exception.KettleDatabaseException: 
+offending row : [FECHA Date<binary-string>], [CNT_LLAMADAS Number<binary-string>], [CNT_POLITICA_RESTRICCION Number<binary-string>], [CNT_BOLQ_REL_TIPO_GEST Number<binary-string>], [CNT_BLOQ_RAN_REL Number<binary-string>], [CNT_PERMITIERON_CONTINUAR Number<binary-string>], [CNT_CONECTADAS_VOICE_MAIL Number<binary-string>], [CNT_CONECTADA_ANUNCIO_SWITCH Number<binary-string>], [ARCHIVO String<binary-string>]
+
+Error setting value #1 [Date<binary-string>] on prepared statement
+
+fecha String : couldn't convert string [13/06/2016 14:00:00] to a date using format [dd/MM/yyyy hh:mm:ss] on offset location 13
+13/06/2016 14:00:00
+
+
+;;TOP001
+13/06/2016 15:00:00;2139315;121244;0;48498;72746;0;0;/home/oracle/MobileumASP/hourly_stats/ARG-20160613.csv;1;org.pentaho.di.core.exception.KettleDatabaseException: 
+offending row : [FECHA Date<binary-string>], [CNT_LLAMADAS Number<binary-string>], [CNT_POLITICA_RESTRICCION Number<binary-string>], [CNT_BOLQ_REL_TIPO_GEST Number<binary-string>], [CNT_BLOQ_RAN_REL Number<binary-string>], [CNT_PERMITIERON_CONTINUAR Number<binary-string>], [CNT_CONECTADAS_VOICE_MAIL Number<binary-string>], [CNT_CONECTADA_ANUNCIO_SWITCH Number<binary-string>], [ARCHIVO String<binary-string>]
+
+Error setting value #1 [Date<binary-string>] on prepared statement
+
+fecha String : couldn't convert string [13/06/2016 15:00:00] to a date using format [dd/MM/yyyy hh:mm:ss] on offset location 13
+13/06/2016 15:00:00
+
+
+;;TOP001
+13/06/2016 16:00:00;2546615;149381;0;59753;89628;0;0;/home/oracle/MobileumASP/hourly_stats/ARG-20160613.csv;1;org.pentaho.di.core.exception.KettleDatabaseException: 
+offending row : [FECHA Date<binary-string>], [CNT_LLAMADAS Number<binary-string>], [CNT_POLITICA_RESTRICCION Number<binary-string>], [CNT_BOLQ_REL_TIPO_GEST Number<binary-string>], [CNT_BLOQ_RAN_REL Number<binary-string>], [CNT_PERMITIERON_CONTINUAR Number<binary-string>], [CNT_CONECTADAS_VOICE_MAIL Number<binary-string>], [CNT_CONECTADA_ANUNCIO_SWITCH Number<binary-string>], [ARCHIVO String<binary-string>]
+
+Error setting value #1 [Date<binary-string>] on prepared statement
+
+fecha String : couldn't convert string [13/06/2016 16:00:00] to a date using format [dd/MM/yyyy hh:mm:ss] on offset location 13
+13/06/2016 16:00:00
+
+
+;;TOP001
+13/06/2016 17:00:00;3097770;156630;0;78116;78514;0;0;/home/oracle/MobileumASP/hourly_stats/ARG-20160613.csv;1;org.pentaho.di.core.exception.KettleDatabaseException: 
+offending row : [FECHA Date<binary-string>], [CNT_LLAMADAS Number<binary-string>], [CNT_POLITICA_RESTRICCION Number<binary-string>], [CNT_BOLQ_REL_TIPO_GEST Number<binary-string>], [CNT_BLOQ_RAN_REL Number<binary-string>], [CNT_PERMITIERON_CONTINUAR Number<binary-string>], [CNT_CONECTADAS_VOICE_MAIL Number<binary-string>], [CNT_CONECTADA_ANUNCIO_SWITCH Number<binary-string>], [ARCHIVO String<binary-string>]
+
+Error setting value #1 [Date<binary-string>] on prepared statement
+
+fecha String : couldn't convert string [13/06/2016 17:00:00] to a date using format [dd/MM/yyyy hh:mm:ss] on offset location 13
+13/06/2016 17:00:00
+
+
+;;TOP001
+13/06/2016 18:00:00;3402828;143389;0;57354;86035;0;0;/home/oracle/MobileumASP/hourly_stats/ARG-20160613.csv;1;org.pentaho.di.core.exception.KettleDatabaseException: 
+offending row : [FECHA Date<binary-string>], [CNT_LLAMADAS Number<binary-string>], [CNT_POLITICA_RESTRICCION Number<binary-string>], [CNT_BOLQ_REL_TIPO_GEST Number<binary-string>], [CNT_BLOQ_RAN_REL Number<binary-string>], [CNT_PERMITIERON_CONTINUAR Number<binary-string>], [CNT_CONECTADAS_VOICE_MAIL Number<binary-string>], [CNT_CONECTADA_ANUNCIO_SWITCH Number<binary-string>], [ARCHIVO String<binary-string>]
+
+Error setting value #1 [Date<binary-string>] on prepared statement
+
+fecha String : couldn't convert string [13/06/2016 18:00:00] to a date using format [dd/MM/yyyy hh:mm:ss] on offset location 13
+13/06/2016 18:00:00
+
+
+;;TOP001
+13/06/2016 19:00:00;3261180;177123;0;70852;106271;0;0;/home/oracle/MobileumASP/hourly_stats/ARG-20160613.csv;1;org.pentaho.di.core.exception.KettleDatabaseException: 
+offending row : [FECHA Date<binary-string>], [CNT_LLAMADAS Number<binary-string>], [CNT_POLITICA_RESTRICCION Number<binary-string>], [CNT_BOLQ_REL_TIPO_GEST Number<binary-string>], [CNT_BLOQ_RAN_REL Number<binary-string>], [CNT_PERMITIERON_CONTINUAR Number<binary-string>], [CNT_CONECTADAS_VOICE_MAIL Number<binary-string>], [CNT_CONECTADA_ANUNCIO_SWITCH Number<binary-string>], [ARCHIVO String<binary-string>]
+
+Error setting value #1 [Date<binary-string>] on prepared statement
+
+fecha String : couldn't convert string [13/06/2016 19:00:00] to a date using format [dd/MM/yyyy hh:mm:ss] on offset location 13
+13/06/2016 19:00:00
+
+
+;;TOP001
+13/06/2016 20:00:00;2771365;170116;0;68044;102072;0;0;/home/oracle/MobileumASP/hourly_stats/ARG-20160613.csv;1;org.pentaho.di.core.exception.KettleDatabaseException: 
+offending row : [FECHA Date<binary-string>], [CNT_LLAMADAS Number<binary-string>], [CNT_POLITICA_RESTRICCION Number<binary-string>], [CNT_BOLQ_REL_TIPO_GEST Number<binary-string>], [CNT_BLOQ_RAN_REL Number<binary-string>], [CNT_PERMITIERON_CONTINUAR Number<binary-string>], [CNT_CONECTADAS_VOICE_MAIL Number<binary-string>], [CNT_CONECTADA_ANUNCIO_SWITCH Number<binary-string>], [ARCHIVO String<binary-string>]
+
+Error setting value #1 [Date<binary-string>] on prepared statement
+
+fecha String : couldn't convert string [13/06/2016 20:00:00] to a date using format [dd/MM/yyyy hh:mm:ss] on offset location 13
+13/06/2016 20:00:00
+
+
+;;TOP001
+13/06/2016 21:00:00;1854707;1233;0;494;739;0;0;/home/oracle/MobileumASP/hourly_stats/ARG-20160613.csv;1;org.pentaho.di.core.exception.KettleDatabaseException: 
+offending row : [FECHA Date<binary-string>], [CNT_LLAMADAS Number<binary-string>], [CNT_POLITICA_RESTRICCION Number<binary-string>], [CNT_BOLQ_REL_TIPO_GEST Number<binary-string>], [CNT_BLOQ_RAN_REL Number<binary-string>], [CNT_PERMITIERON_CONTINUAR Number<binary-string>], [CNT_CONECTADAS_VOICE_MAIL Number<binary-string>], [CNT_CONECTADA_ANUNCIO_SWITCH Number<binary-string>], [ARCHIVO String<binary-string>]
+
+Error setting value #1 [Date<binary-string>] on prepared statement
+
+fecha String : couldn't convert string [13/06/2016 21:00:00] to a date using format [dd/MM/yyyy hh:mm:ss] on offset location 13
+13/06/2016 21:00:00
+
+
+;;TOP001
+13/06/2016 22:00:00;1235221;1011;0;405;606;0;0;/home/oracle/MobileumASP/hourly_stats/ARG-20160613.csv;1;org.pentaho.di.core.exception.KettleDatabaseException: 
+offending row : [FECHA Date<binary-string>], [CNT_LLAMADAS Number<binary-string>], [CNT_POLITICA_RESTRICCION Number<binary-string>], [CNT_BOLQ_REL_TIPO_GEST Number<binary-string>], [CNT_BLOQ_RAN_REL Number<binary-string>], [CNT_PERMITIERON_CONTINUAR Number<binary-string>], [CNT_CONECTADAS_VOICE_MAIL Number<binary-string>], [CNT_CONECTADA_ANUNCIO_SWITCH Number<binary-string>], [ARCHIVO String<binary-string>]
+
+Error setting value #1 [Date<binary-string>] on prepared statement
+
+fecha String : couldn't convert string [13/06/2016 22:00:00] to a date using format [dd/MM/yyyy hh:mm:ss] on offset location 13
+13/06/2016 22:00:00
+
+
+;;TOP001
+13/06/2016 23:00:00;676062;640;0;256;384;0;0;/home/oracle/MobileumASP/hourly_stats/ARG-20160613.csv;1;org.pentaho.di.core.exception.KettleDatabaseException: 
+offending row : [FECHA Date<binary-string>], [CNT_LLAMADAS Number<binary-string>], [CNT_POLITICA_RESTRICCION Number<binary-string>], [CNT_BOLQ_REL_TIPO_GEST Number<binary-string>], [CNT_BLOQ_RAN_REL Number<binary-string>], [CNT_PERMITIERON_CONTINUAR Number<binary-string>], [CNT_CONECTADAS_VOICE_MAIL Number<binary-string>], [CNT_CONECTADA_ANUNCIO_SWITCH Number<binary-string>], [ARCHIVO String<binary-string>]
+
+Error setting value #1 [Date<binary-string>] on prepared statement
+
+fecha String : couldn't convert string [13/06/2016 23:00:00] to a date using format [dd/MM/yyyy hh:mm:ss] on offset location 13
+13/06/2016 23:00:00
+
+
+;;TOP001
