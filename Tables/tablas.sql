@@ -44,6 +44,7 @@ comment on column MOBILEUM_ASP_HOUR.CNT_PERMITIERON_CONTINUAR is 'Cantidad de ll
 comment on column MOBILEUM_ASP_HOUR.CNT_CONECTADAS_VOICE_MAIL is 'Cantidad de llamadas conectadas al Voice Mail.';
 comment on column MOBILEUM_ASP_HOUR.CNT_CONECTADA_ANUNCIO_SWITCH is 'Cantidad de llamadas conectadas a un anuncio en el switch.';
 --**--
+-- DROP TABLE MOBILEUM_ASP_DAY;
 create table MOBILEUM_ASP_DAY(
 PAIS                          char(3 char) not null enable,
 FECHA                         date not null enable,
@@ -54,10 +55,43 @@ CNT_BLOQ_RAN_REL              number not null enable,
 CNT_PERMITIERON_CONTINUAR     number not null enable,
 CNT_CONECTADAS_VOICE_MAIL     number not null enable,
 CNT_CONECTADA_ANUNCIO_SWITCH  number not null enable
-)PARTITION BY RANGE (FECHA) 
-INTERVAL(NUMTODSINTERVAL (1, 'DAY'))
-(  
-  PARTITION MOBILEUM_ASP_DAY_20160526 VALUES LESS THAN (TO_DATE('26.05.2016','dd.mm.yyyy'))
- );
+);
+--PARTITION BY RANGE (FECHA) 
+--INTERVAL(NUMTODSINTERVAL (1, 'DAY'))
+--(  
+--  PARTITION MOBILEUM_ASP_DAY_20160526 VALUES LESS THAN (TO_DATE('26.05.2016','dd.mm.yyyy'))
+-- );
  
  comment on table MOBILEUM_ASP_DAY is 'Sumarizaciones del MOBILEUM_ASP a nivel DAY';
+ 
+ --
+ -- DROP TABLE MOBILEUM_ASP_BH
+ 
+ create table MOBILEUM_ASP_BH(
+PAIS                          char(3 char) not null enable,
+FECHA                         date not null enable,
+CNT_LLAMADAS                  number not null enable,
+CNT_POLITICA_RESTRICCION      number not null enable,
+CNT_BOLQ_REL_TIPO_GEST        number not null enable,
+CNT_BLOQ_RAN_REL              number not null enable,
+CNT_PERMITIERON_CONTINUAR     number not null enable,
+CNT_CONECTADAS_VOICE_MAIL     number not null enable,
+CNT_CONECTADA_ANUNCIO_SWITCH  number not null enable
+);
+ 
+comment on table MOBILEUM_ASP_BH is 'Sumarizaciones del MOBILEUM_ASP a nivel BH';
+--
+--
+create table MOBILEUM_ASP_IBHW(
+PAIS                          char(3 char) not null enable,
+FECHA                         date not null enable,
+CNT_LLAMADAS                  number not null enable,
+CNT_POLITICA_RESTRICCION      number not null enable,
+CNT_BOLQ_REL_TIPO_GEST        number not null enable,
+CNT_BLOQ_RAN_REL              number not null enable,
+CNT_PERMITIERON_CONTINUAR     number not null enable,
+CNT_CONECTADAS_VOICE_MAIL     number not null enable,
+CNT_CONECTADA_ANUNCIO_SWITCH  number not null enable
+);
+ 
+comment on table MOBILEUM_ASP_IBHW is 'Sumarizaciones del MOBILEUM_ASP a nivel IBHW';
