@@ -23,7 +23,7 @@ CNT_BLOQ_RAN_REL              number not null enable,
 CNT_PERMITIERON_CONTINUAR     number not null enable,
 CNT_CONECTADAS_VOICE_MAIL     number not null enable,
 CNT_CONECTADA_ANUNCIO_SWITCH  number not null enable
-);
+) nologging;
 --PARTITION BY RANGE (FECHA) 
 --INTERVAL(NUMTODSINTERVAL (1, 'DAY'))
 --(  
@@ -55,7 +55,7 @@ CNT_BLOQ_RAN_REL              number not null enable,
 CNT_PERMITIERON_CONTINUAR     number not null enable,
 CNT_CONECTADAS_VOICE_MAIL     number not null enable,
 CNT_CONECTADA_ANUNCIO_SWITCH  number not null enable
-);
+) nologging;
 --PARTITION BY RANGE (FECHA) 
 --INTERVAL(NUMTODSINTERVAL (1, 'DAY'))
 --(  
@@ -77,7 +77,7 @@ CNT_BLOQ_RAN_REL              number not null enable,
 CNT_PERMITIERON_CONTINUAR     number not null enable,
 CNT_CONECTADAS_VOICE_MAIL     number not null enable,
 CNT_CONECTADA_ANUNCIO_SWITCH  number not null enable
-);
+) nologging;
  
 comment on table MOBILEUM_ASP_BH is 'Sumarizaciones del MOBILEUM_ASP a nivel BH';
 --
@@ -92,6 +92,6 @@ CNT_BLOQ_RAN_REL              number not null enable,
 CNT_PERMITIERON_CONTINUAR     number not null enable,
 CNT_CONECTADAS_VOICE_MAIL     number not null enable,
 CNT_CONECTADA_ANUNCIO_SWITCH  number not null enable
-);
+) nologging;
  
 comment on table MOBILEUM_ASP_IBHW is 'Sumarizaciones del MOBILEUM_ASP a nivel IBHW';

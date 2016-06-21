@@ -87,7 +87,7 @@
     <data_tablespace/>
     <index_tablespace/>
     <attributes>
-      <attribute><code>EXTRA_OPTION_ORACLE.NLS_DATE_FORMAT</code><attribute>DD.MM.YYYY HH24&#x3a;MI&#x3a;SS</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_ORACLE.NLS_DATE_FORMAT</code><attribute>DD.MM.RRRR</attribute></attribute>
       <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
       <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
       <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
@@ -100,12 +100,36 @@
     </attributes>
   </connection>
   <order>
-  <hop> <from>Get YESTERDAY Info</from><to>Moficar formato fecha</to><enabled>Y</enabled> </hop>
-  <hop> <from>Moficar formato fecha</from><to>Write to log</to><enabled>Y</enabled> </hop>
-  <hop> <from>Write to log</from><to>Call P_CALCULAR_SUMARIZACIONES_MOB Procedure</to><enabled>Y</enabled> </hop>
+  <hop> <from>Get YESTERDAY from database</from><to>Call DB Procedure</to><enabled>Y</enabled> </hop>
   </order>
   <step>
-    <name>Call P_CALCULAR_SUMARIZACIONES_MOB Procedure</name>
+    <name>Get YESTERDAY from database</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <connection>falda.claro.amx</connection>
+    <sql>SELECT to_char&#x28;sysdate-1,&#x27;DD.MM.YYYY&#x27;&#x29; fechaNew FROM dual</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>256</xloc>
+      <yloc>112</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Call DB Procedure</name>
     <type>DBProc</type>
     <description/>
     <distribute>Y</distribute>
@@ -116,7 +140,7 @@
            <schema_name/>
            </partitioning>
     <connection>falda.claro.amx</connection>
-    <procedure>G_MOBILEUM_ASP.P_MOBILEUM_ASP_BH</procedure>
+    <procedure>G_MOBILEUM_ASP.P_CALCULAR_SUMARIZACIONES_MOB</procedure>
     <lookup>
       <arg>
         <name>fechaNew</name>
@@ -131,92 +155,8 @@
     <auto_commit>N</auto_commit>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>736</xloc>
-      <yloc>144</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Get YESTERDAY Info</name>
-    <type>SystemInfo</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <fields>
-      <field>
-        <name>fecha</name>
-        <type>yesterday start</type>
-        </field>
-      </fields>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>128</xloc>
-      <yloc>64</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Moficar formato fecha</name>
-    <type>ScriptValueMod</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <compatible>N</compatible>
-    <optimizationLevel>9</optimizationLevel>
-    <jsScripts>      <jsScript>        <jsScript_type>0</jsScript_type>
-        <jsScript_name>Script 1</jsScript_name>
-        <jsScript_script>&#x2f;&#x2f;Script here&#xa;&#xa;var fechaNew &#x3d; date2str&#x28;fecha,&#x27;dd.mm.yyyy&#x27;&#x29;&#x3b;</jsScript_script>
-      </jsScript>    </jsScripts>    <fields>      <field>        <name>fechaNew</name>
-        <rename>fechaNew</rename>
-        <type>String</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <replace>N</replace>
-      </field>    </fields>     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>336</xloc>
-      <yloc>144</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Write to log</name>
-    <type>WriteToLog</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-      <loglevel>log_level_basic</loglevel>
-      <displayHeader>Y</displayHeader>
-      <limitRows>N</limitRows>
-      <limitRowsNumber>0</limitRowsNumber>
-      <logmessage/>
-    <fields>
-      <field>
-        <name>fecha</name>
-        </field>
-      </fields>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>480</xloc>
-      <yloc>144</yloc>
+      <xloc>576</xloc>
+      <yloc>112</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
