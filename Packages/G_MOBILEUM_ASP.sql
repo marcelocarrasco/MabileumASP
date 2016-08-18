@@ -225,12 +225,13 @@ CREATE OR REPLACE PACKAGE BODY G_MOBILEUM_ASP AS
                   CNT_CONECTADA_ANUNCIO_SWITCH,                 
                   ROW_NUMBER()  OVER (PARTITION BY  PAIS,
                                                     TRUNC(FECHA,'DAY')
-                                ORDER BY trunc(FECHA) DESC,
+                                ORDER BY --trunc(FECHA) DESC,
                                          PAIS DESC, 
                                          CNT_LLAMADAS DESC NULLS LAST) SEQNUM
-                FROM MOBILEUM_ASP_BH)
+                FROM MOBILEUM_ASP_BH
+                WHERE TRUNC(fecha) BETWEEN to_date(fecha_desde,'dd.mm.yyyy') AND to_date(fecha_hasta,'dd.mm.yyyy'))
     where SEQNUM <= LIMIT_PROM
-    AND fecha BETWEEN to_date(fecha_desde,'dd.mm.yyyy') AND to_date(fecha_hasta,'dd.mm.yyyy')
+    --AND TRUNC(fecha) BETWEEN to_date(fecha_desde,'dd.mm.yyyy') AND to_date(fecha_hasta,'dd.mm.yyyy')
     GROUP BY PAIS; --,fecha;
     --
     l_errors number;
