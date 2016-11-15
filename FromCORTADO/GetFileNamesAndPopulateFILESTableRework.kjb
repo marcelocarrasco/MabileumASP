@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <job>
-  <name>GetFileNamesAndPopulateFILESTable</name>
+  <name>GetFileNamesAndPopulateFILESTableRework</name>
     <description/>
     <extended_description/>
     <job_version/>
+    <job_status>0</job_status>
   <directory>&#x2f;</directory>
   <created_user>-</created_user>
   <created_date>2016&#x2f;06&#x2f;14 12&#x3a;08&#x3a;09.163</created_date>
@@ -12,6 +13,8 @@
     <parameters>
     </parameters>
     <slaveservers>
+         <slaveserver><name>falda.claro.amx</name><hostname>falda.claro.amx</hostname><port>8085</port><webAppName/><username>cluster</username><password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password><proxy_hostname>amba-proxy1.ctimovil.net</proxy_hostname><proxy_port>8083</proxy_port><non_proxy_hosts/><master>N</master><sslMode>N</sslMode></slaveserver>
+         <slaveserver><name>localhost</name><hostname>localhost</hostname><port>8085</port><webAppName/><username>cluster</username><password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password><proxy_hostname/><proxy_port/><non_proxy_hosts/><master>N</master><sslMode>N</sslMode></slaveserver>
     </slaveservers>
 <job-log-table><connection/>
 <schema/>
@@ -54,12 +57,12 @@
       <yloc>160</yloc>
       </entry>
     <entry>
-      <name>Get File Names To Import</name>
+      <name>Get File Names To Import Rework</name>
       <description/>
       <type>TRANS</type>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;GetFileNamesToImport.ktr</filename>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;GetFileNamesToImportRework.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -67,7 +70,7 @@
       <clear_rows>Y</clear_rows>
       <clear_files>N</clear_files>
       <set_logfile>Y</set_logfile>
-      <logfile>&#x24;&#x7b;MOBILEUM-HOME&#x7d;&#x2f;PentahoLogs&#x2f;get_file_names_to_import</logfile>
+      <logfile>&#x24;&#x7b;MOBILEUM-HOME&#x7d;&#x2f;PentahoLogs&#x2f;rwk_get_file_names_to_import</logfile>
       <logext>log</logext>
       <add_date>Y</add_date>
       <add_time>N</add_time>
@@ -87,12 +90,12 @@
       <yloc>160</yloc>
       </entry>
     <entry>
-      <name>Get File Names And Populate FILES Table</name>
+      <name>Get File Names And Populate FILES Table Rework</name>
       <description/>
       <type>TRANS</type>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;GetFileNamesAndPopulateFILESTable.ktr</filename>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;GetFileNamesAndPopulateFILESTableRework.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -100,7 +103,7 @@
       <clear_rows>Y</clear_rows>
       <clear_files>N</clear_files>
       <set_logfile>Y</set_logfile>
-      <logfile>&#x24;&#x7b;MOBILEUM-HOME&#x7d;&#x2f;PentahoLogs&#x2f;get_file_names_and_populate_FILES_table</logfile>
+      <logfile>&#x24;&#x7b;MOBILEUM-HOME&#x7d;&#x2f;PentahoLogs&#x2f;rwk_get_file_names_and_populate_FILES_table</logfile>
       <logext>log</logext>
       <add_date>Y</add_date>
       <add_time>N</add_time>
@@ -116,7 +119,7 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>560</xloc>
+      <xloc>592</xloc>
       <yloc>160</yloc>
       </entry>
     <entry>
@@ -133,7 +136,7 @@
   <hops>
     <hop>
       <from>START</from>
-      <to>Get File Names To Import</to>
+      <to>Get File Names To Import Rework</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -141,8 +144,8 @@
       <unconditional>Y</unconditional>
     </hop>
     <hop>
-      <from>Get File Names To Import</from>
-      <to>Get File Names And Populate FILES Table</to>
+      <from>Get File Names To Import Rework</from>
+      <to>Get File Names And Populate FILES Table Rework</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -150,7 +153,7 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Get File Names And Populate FILES Table</from>
+      <from>Get File Names And Populate FILES Table Rework</from>
       <to>Success</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>

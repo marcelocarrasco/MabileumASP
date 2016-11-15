@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <job>
-  <name>PopulateMOBILEUM_ASP_HOURTable</name>
+  <name>PopulateMOBILEUM_ASP_HOURTableRework</name>
     <description/>
     <extended_description/>
     <job_version/>
+    <job_status>0</job_status>
   <directory>&#x2f;</directory>
   <created_user>-</created_user>
   <created_date>2016&#x2f;06&#x2f;14 14&#x3a;50&#x3a;16.939</created_date>
@@ -80,12 +81,12 @@
       <yloc>80</yloc>
       </entry>
     <entry>
-      <name>Populate MOBILEUM_ASP_AUX Table</name>
+      <name>Populate MOBILEUM_ASP_AUX Table Rework</name>
       <description/>
       <type>TRANS</type>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;PopulateMOBILEUM_ASP_AUXTable.ktr</filename>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;PopulateMOBILEUM_ASP_AUXTableRework.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>Y</params_from_previous>
@@ -110,15 +111,15 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>848</xloc>
-      <yloc>240</yloc>
+      <yloc>192</yloc>
       </entry>
     <entry>
-      <name>Get File Names From FILES Table</name>
+      <name>Get File Names From FILES Table Rework</name>
       <description/>
       <type>TRANS</type>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;GetFileNamesFromFILESTable.ktr</filename>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;GetFileNamesFromFILESTableRework.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -142,16 +143,16 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>608</xloc>
-      <yloc>240</yloc>
+      <xloc>880</xloc>
+      <yloc>80</yloc>
       </entry>
     <entry>
-      <name>Populate MOBILEUM_ASP_HOUR Table</name>
+      <name>Populate MOBILEUM_ASP_HOUR Table Rework</name>
       <description/>
       <type>TRANS</type>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;PopulateMOBILEUM_ASP_HOURTable.ktr</filename>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;PopulateMOBILEUM_ASP_HOURTableRework.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -176,7 +177,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>848</xloc>
-      <yloc>368</yloc>
+      <yloc>304</yloc>
       </entry>
     <entry>
       <name>Success</name>
@@ -186,7 +187,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>416</xloc>
-      <yloc>512</yloc>
+      <yloc>432</yloc>
       </entry>
     <entry>
       <name>Truncate MOBILEUM_ASP_AUX table</name>
@@ -210,10 +211,10 @@
       <name>Zip file</name>
       <description/>
       <type>ZIP_FILE</type>
-      <zipfilename>&#x24;&#x7b;MOBILEUM-HOME&#x7d;&#x2f;hourly_stats&#x2f;CSV&#x2f;archivos_ARG_PRY_URY.zip</zipfilename>
+      <zipfilename>&#x24;&#x7b;MOBILEUM-HOME&#x7d;&#x2f;hourly_stats&#x2f;CSV&#x2f;rwk_archivos_ARG_PRY_URY_&#x24;&#x7b;FECHA_PROC&#x7d;.zip</zipfilename>
       <compressionrate>1</compressionrate>
       <ifzipfileexists>1</ifzipfileexists>
-      <wildcard>.&#x2a;&#x5c;.csv</wildcard>
+      <wildcard>.&#x2a;&#x28;&#x3f;i&#x29;&#x28;-&#x24;&#x7b;FECHA_PROC&#x7d;&#x29;.&#x2a;&#x28;&#x3f;-i&#x29;&#x5c;.csv</wildcard>
       <wildcardexclude/>
       <sourcedirectory>&#x24;&#x7b;MOBILEUM-HOME&#x7d;&#x2f;hourly_stats</sourcedirectory>
       <movetodirectory/>
@@ -221,7 +222,7 @@
       <addfiletoresult>N</addfiletoresult>
       <isfromprevious>N</isfromprevious>
       <createparentfolder>N</createparentfolder>
-      <adddate>Y</adddate>
+      <adddate>N</adddate>
       <addtime>N</addtime>
       <SpecifyFormat>N</SpecifyFormat>
       <date_time_format/>
@@ -232,7 +233,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>848</xloc>
-      <yloc>512</yloc>
+      <yloc>432</yloc>
       </entry>
     <entry>
       <name>Existen archivos para procesar&#x3f;&#x3f;</name>
@@ -244,8 +245,8 @@
       <success_condition>rows_count_greater</success_condition>
       <limit>0</limit>
       <is_custom_sql>Y</is_custom_sql>
-      <is_usevars>N</is_usevars>
-      <custom_sql>SELECT nombre_csv&#xa;FROM files&#xa;WHERE status &#x3d; 5&#xa;AND procesado is null&#xa;AND nombre_csv like &#x27;&#x25;&#x2f;MobileumASP&#x2f;hourly_stats&#x2f;&#x25;&#x27;&#xa;AND row_num &#x21;&#x3d; 0</custom_sql>
+      <is_usevars>Y</is_usevars>
+      <custom_sql>SELECT nombre_csv&#xa;FROM files&#xa;WHERE status &#x3d; 5&#xa;AND procesado is null&#xa;AND nombre_csv like &#x27;&#x25;&#x2f;MobileumASP&#x2f;hourly_stats&#x2f;&#x25;-&#x24;&#x7b;FECHA_PROC&#x7d;.csv&#x27;&#xa;AND row_num &#x21;&#x3d; 0</custom_sql>
       <add_rows_result>N</add_rows_result>
       <clear_result_rows>Y</clear_result_rows>
       <parallel>N</parallel>
@@ -266,12 +267,12 @@
       <yloc>224</yloc>
       </entry>
     <entry>
-      <name>Calcular Sumarizaciones</name>
+      <name>Calcular Sumarizaciones Rework</name>
       <description/>
       <type>TRANS</type>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;CalcularSumarizaciones.ktr</filename>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;CalcularSumarizacionesRework.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -279,7 +280,7 @@
       <clear_rows>N</clear_rows>
       <clear_files>N</clear_files>
       <set_logfile>Y</set_logfile>
-      <logfile>&#x24;&#x7b;MOBILEUM-HOME&#x7d;&#x2f;PentahoLogs&#x2f;calcular_sumarizaciones</logfile>
+      <logfile>&#x24;&#x7b;MOBILEUM-HOME&#x7d;&#x2f;PentahoLogs&#x2f;rwk_calcular_sumarizaciones</logfile>
       <logext>log</logext>
       <add_date>Y</add_date>
       <add_time>N</add_time>
@@ -296,13 +297,13 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>624</xloc>
-      <yloc>512</yloc>
+      <yloc>432</yloc>
       </entry>
   </entries>
   <hops>
     <hop>
-      <from>Get File Names From FILES Table</from>
-      <to>Populate MOBILEUM_ASP_AUX Table</to>
+      <from>Get File Names From FILES Table Rework</from>
+      <to>Populate MOBILEUM_ASP_AUX Table Rework</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -310,8 +311,8 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Populate MOBILEUM_ASP_AUX Table</from>
-      <to>Populate MOBILEUM_ASP_HOUR Table</to>
+      <from>Populate MOBILEUM_ASP_AUX Table Rework</from>
+      <to>Populate MOBILEUM_ASP_HOUR Table Rework</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -320,7 +321,7 @@
     </hop>
     <hop>
       <from>Truncate MOBILEUM_ASP_AUX table</from>
-      <to>Get File Names From FILES Table</to>
+      <to>Get File Names From FILES Table Rework</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -328,7 +329,7 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Populate MOBILEUM_ASP_HOUR Table</from>
+      <from>Populate MOBILEUM_ASP_HOUR Table Rework</from>
       <to>Zip file</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
@@ -365,7 +366,7 @@
     </hop>
     <hop>
       <from>Zip file</from>
-      <to>Calcular Sumarizaciones</to>
+      <to>Calcular Sumarizaciones Rework</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -373,7 +374,7 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Calcular Sumarizaciones</from>
+      <from>Calcular Sumarizaciones Rework</from>
       <to>Success</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>

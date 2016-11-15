@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>GetFileNamesFromFILESTable</name>
+    <name>GetFileNamesAndPopulateFILESTableRework</name>
     <description/>
     <extended_description/>
     <trans_version/>
     <trans_type>Normal</trans_type>
+    <trans_status>0</trans_status>
     <directory>&#x2f;</directory>
     <parameters>
     </parameters>
@@ -76,22 +77,11 @@
           <slaveservers>
           </slaveservers>
         </clusterschema>
-        <clusterschema>
-          <name>local</name>
-          <base_port>40000</base_port>
-          <sockets_buffer_size>2000</sockets_buffer_size>
-          <sockets_flush_interval>5000</sockets_flush_interval>
-          <sockets_compressed>Y</sockets_compressed>
-          <dynamic>N</dynamic>
-          <slaveservers>
-            <name>localhost</name>
-          </slaveservers>
-        </clusterschema>
     </clusterschemas>
   <created_user>-</created_user>
-  <created_date>2016&#x2f;06&#x2f;14 12&#x3a;13&#x3a;34.332</created_date>
+  <created_date>2016&#x2f;06&#x2f;14 11&#x3a;56&#x3a;37.008</created_date>
   <modified_user>-</modified_user>
-  <modified_date>2016&#x2f;06&#x2f;14 12&#x3a;13&#x3a;34.332</modified_date>
+  <modified_date>2016&#x2f;06&#x2f;14 11&#x3a;56&#x3a;37.008</modified_date>
     <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA&#x3d;</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
@@ -122,12 +112,13 @@
     </attributes>
   </connection>
   <order>
-  <hop> <from>File Names From FILES Table</from><to>Write to log</to><enabled>Y</enabled> </hop>
-  <hop> <from>Write to log</from><to>Copy rows to result</to><enabled>Y</enabled> </hop>
+  <hop> <from>Get filename from result</from><to>Write to log</to><enabled>Y</enabled> </hop>
+  <hop> <from>Write to log</from><to>Add status constants</to><enabled>Y</enabled> </hop>
+  <hop> <from>Add status constants</from><to>Insert &#x2f; Update FILES table</to><enabled>Y</enabled> </hop>
   </order>
   <step>
-    <name>Copy rows to result</name>
-    <type>RowsToResult</type>
+    <name>Add status constants</name>
+    <type>Constant</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -136,17 +127,58 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
+    <fields>
+      <field>
+        <name>status</name>
+        <type>Number</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif>5</nullif>
+        <length>1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>624</xloc>
-      <yloc>144</yloc>
+      <xloc>448</xloc>
+      <yloc>96</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>File Names From FILES Table</name>
-    <type>TableInput</type>
+    <name>Get filename from result</name>
+    <type>RowsFromResult</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <fields>      <field>        <name>filename</name>
+        <type>None</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        </field>      <field>        <name>size</name>
+        <type>None</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        </field>      </fields>     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>96</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Insert &#x2f; Update FILES table</name>
+    <type>InsertUpdate</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -156,16 +188,42 @@
            <schema_name/>
            </partitioning>
     <connection>falda.claro.amx</connection>
-    <sql>SELECT nombre_csv&#xa;FROM files&#xa;WHERE status &#x3d; 5&#xa;AND procesado is null&#xa;AND nombre_csv like &#x27;&#x25;&#x2f;MobileumASP&#x2f;hourly_stats&#x2f;&#x25;&#x27;&#xa;AND row_num &#x21;&#x3d; 0</sql>
-    <limit>0</limit>
-    <lookup/>
-    <execute_each_row>N</execute_each_row>
-    <variables_active>N</variables_active>
-    <lazy_conversion_active>Y</lazy_conversion_active>
+    <commit>100</commit>
+    <update_bypassed>Y</update_bypassed>
+    <lookup>
+      <schema>&#x24;&#x7b;DB-SCHEMA&#x7d;</schema>
+      <table>FILES</table>
+      <key>
+        <name>filename</name>
+        <field>NOMBRE_CSV</field>
+        <condition>&#x3d;</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>NOMBRE_XML</name>
+        <rename>filename</rename>
+        <update>N</update>
+      </value>
+      <value>
+        <name>NOMBRE_CSV</name>
+        <rename>filename</rename>
+        <update>N</update>
+      </value>
+      <value>
+        <name>STATUS</name>
+        <rename>status</rename>
+        <update>N</update>
+      </value>
+      <value>
+        <name>ROW_NUM</name>
+        <rename>size</rename>
+        <update>N</update>
+      </value>
+    </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>112</xloc>
-      <yloc>144</yloc>
+      <xloc>656</xloc>
+      <yloc>96</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -185,16 +243,19 @@
       <displayHeader>Y</displayHeader>
       <limitRows>N</limitRows>
       <limitRowsNumber>0</limitRowsNumber>
-      <logmessage>Nombre_csv from FILES table&#x3a;</logmessage>
+      <logmessage>Filename from result&#x3a;</logmessage>
     <fields>
       <field>
-        <name>NOMBRE_CSV</name>
+        <name>filename</name>
+        </field>
+      <field>
+        <name>size</name>
         </field>
       </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>368</xloc>
-      <yloc>144</yloc>
+      <xloc>272</xloc>
+      <yloc>96</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

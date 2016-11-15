@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>GetFileNamesFromFILESTable</name>
+    <name>PopulateMOBILEUM_ASP_HOURTableRework</name>
     <description/>
     <extended_description/>
     <trans_version/>
     <trans_type>Normal</trans_type>
+    <trans_status>0</trans_status>
     <directory>&#x2f;</directory>
     <parameters>
     </parameters>
@@ -76,22 +77,11 @@
           <slaveservers>
           </slaveservers>
         </clusterschema>
-        <clusterschema>
-          <name>local</name>
-          <base_port>40000</base_port>
-          <sockets_buffer_size>2000</sockets_buffer_size>
-          <sockets_flush_interval>5000</sockets_flush_interval>
-          <sockets_compressed>Y</sockets_compressed>
-          <dynamic>N</dynamic>
-          <slaveservers>
-            <name>localhost</name>
-          </slaveservers>
-        </clusterschema>
     </clusterschemas>
   <created_user>-</created_user>
-  <created_date>2016&#x2f;06&#x2f;14 12&#x3a;13&#x3a;34.332</created_date>
+  <created_date>2016&#x2f;06&#x2f;14 14&#x3a;44&#x3a;07.885</created_date>
   <modified_user>-</modified_user>
-  <modified_date>2016&#x2f;06&#x2f;14 12&#x3a;13&#x3a;34.332</modified_date>
+  <modified_date>2016&#x2f;06&#x2f;14 14&#x3a;44&#x3a;07.885</modified_date>
     <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA&#x3d;</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
@@ -122,30 +112,10 @@
     </attributes>
   </connection>
   <order>
-  <hop> <from>File Names From FILES Table</from><to>Write to log</to><enabled>Y</enabled> </hop>
-  <hop> <from>Write to log</from><to>Copy rows to result</to><enabled>Y</enabled> </hop>
+  <hop> <from>Table MOBILEUM_ASP_AUX input</from><to>Table MOBILEUM_ASP_HOUR output</to><enabled>Y</enabled> </hop>
   </order>
   <step>
-    <name>Copy rows to result</name>
-    <type>RowsToResult</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>624</xloc>
-      <yloc>144</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>File Names From FILES Table</name>
+    <name>Table MOBILEUM_ASP_AUX input</name>
     <type>TableInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -156,7 +126,7 @@
            <schema_name/>
            </partitioning>
     <connection>falda.claro.amx</connection>
-    <sql>SELECT nombre_csv&#xa;FROM files&#xa;WHERE status &#x3d; 5&#xa;AND procesado is null&#xa;AND nombre_csv like &#x27;&#x25;&#x2f;MobileumASP&#x2f;hourly_stats&#x2f;&#x25;&#x27;&#xa;AND row_num &#x21;&#x3d; 0</sql>
+    <sql>SELECT PAIS,&#xa;to_date&#x28;FECHA,&#x27;DD.MM.YYYY HH24&#x3a;MI&#x3a;SS&#x27;&#x29; FECHA,&#xa;CNT_LLAMADAS,&#xa;CNT_POLITICA_RESTRICCION,&#xa;CNT_BOLQ_REL_TIPO_GEST,&#xa;CNT_BLOQ_RAN_REL,&#xa;CNT_PERMITIERON_CONTINUAR,&#xa;CNT_CONECTADAS_VOICE_MAIL,&#xa;CNT_CONECTADA_ANUNCIO_SWITCH&#xa;FROM mobileum_asp_aux</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
@@ -164,15 +134,15 @@
     <lazy_conversion_active>Y</lazy_conversion_active>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>112</xloc>
-      <yloc>144</yloc>
+      <xloc>144</xloc>
+      <yloc>80</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>Write to log</name>
-    <type>WriteToLog</type>
+    <name>Table MOBILEUM_ASP_HOUR output</name>
+    <type>TableOutput</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -181,20 +151,65 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-      <loglevel>log_level_basic</loglevel>
-      <displayHeader>Y</displayHeader>
-      <limitRows>N</limitRows>
-      <limitRowsNumber>0</limitRowsNumber>
-      <logmessage>Nombre_csv from FILES table&#x3a;</logmessage>
+    <connection>falda.claro.amx</connection>
+    <schema>&#x24;&#x7b;DB-SCHEMA&#x7d;</schema>
+    <table>MOBILEUM_ASP_HOUR</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>Y</ignore_errors>
+    <use_batch>N</use_batch>
+    <specify_fields>Y</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
     <fields>
-      <field>
-        <name>NOMBRE_CSV</name>
+        <field>
+          <column_name>PAIS</column_name>
+          <stream_name>PAIS</stream_name>
         </field>
-      </fields>
+        <field>
+          <column_name>FECHA</column_name>
+          <stream_name>FECHA</stream_name>
+        </field>
+        <field>
+          <column_name>CNT_LLAMADAS</column_name>
+          <stream_name>CNT_LLAMADAS</stream_name>
+        </field>
+        <field>
+          <column_name>CNT_POLITICA_RESTRICCION</column_name>
+          <stream_name>CNT_POLITICA_RESTRICCION</stream_name>
+        </field>
+        <field>
+          <column_name>CNT_BOLQ_REL_TIPO_GEST</column_name>
+          <stream_name>CNT_BOLQ_REL_TIPO_GEST</stream_name>
+        </field>
+        <field>
+          <column_name>CNT_BLOQ_RAN_REL</column_name>
+          <stream_name>CNT_BLOQ_RAN_REL</stream_name>
+        </field>
+        <field>
+          <column_name>CNT_PERMITIERON_CONTINUAR</column_name>
+          <stream_name>CNT_PERMITIERON_CONTINUAR</stream_name>
+        </field>
+        <field>
+          <column_name>CNT_CONECTADAS_VOICE_MAIL</column_name>
+          <stream_name>CNT_CONECTADAS_VOICE_MAIL</stream_name>
+        </field>
+        <field>
+          <column_name>CNT_CONECTADA_ANUNCIO_SWITCH</column_name>
+          <stream_name>CNT_CONECTADA_ANUNCIO_SWITCH</stream_name>
+        </field>
+    </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>368</xloc>
-      <yloc>144</yloc>
+      <xloc>448</xloc>
+      <yloc>80</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

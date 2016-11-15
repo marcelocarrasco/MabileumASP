@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>GetFileNamesFromFILESTable</name>
+    <name>PopulateMOBILEUM_ASP_AUXTableRework</name>
     <description/>
     <extended_description/>
     <trans_version/>
     <trans_type>Normal</trans_type>
+    <trans_status>0</trans_status>
     <directory>&#x2f;</directory>
     <parameters>
     </parameters>
@@ -76,22 +77,11 @@
           <slaveservers>
           </slaveservers>
         </clusterschema>
-        <clusterschema>
-          <name>local</name>
-          <base_port>40000</base_port>
-          <sockets_buffer_size>2000</sockets_buffer_size>
-          <sockets_flush_interval>5000</sockets_flush_interval>
-          <sockets_compressed>Y</sockets_compressed>
-          <dynamic>N</dynamic>
-          <slaveservers>
-            <name>localhost</name>
-          </slaveservers>
-        </clusterschema>
     </clusterschemas>
   <created_user>-</created_user>
-  <created_date>2016&#x2f;06&#x2f;14 12&#x3a;13&#x3a;34.332</created_date>
+  <created_date>2016&#x2f;06&#x2f;14 12&#x3a;18&#x3a;31.622</created_date>
   <modified_user>-</modified_user>
-  <modified_date>2016&#x2f;06&#x2f;14 12&#x3a;13&#x3a;34.332</modified_date>
+  <modified_date>2016&#x2f;06&#x2f;14 12&#x3a;18&#x3a;31.622</modified_date>
     <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA&#x3d;</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
@@ -122,12 +112,17 @@
     </attributes>
   </connection>
   <order>
-  <hop> <from>File Names From FILES Table</from><to>Write to log</to><enabled>Y</enabled> </hop>
-  <hop> <from>Write to log</from><to>Copy rows to result</to><enabled>Y</enabled> </hop>
+  <hop> <from>Get NOMBRE_CSV from result</from><to>Write to log</to><enabled>Y</enabled> </hop>
+  <hop> <from>Write to log</from><to>CSV file input</to><enabled>Y</enabled> </hop>
+  <hop> <from>Get Sysdate Info</from><to>Add Status Ok constant</to><enabled>Y</enabled> </hop>
+  <hop> <from>Add Status Ok constant</from><to>Update Ok</to><enabled>Y</enabled> </hop>
+  <hop> <from>Table MOBILEUM_AS_AUX output</from><to>Get Sysdate Info</to><enabled>Y</enabled> </hop>
+  <hop> <from>CSV file input</from><to>Write to log 2</to><enabled>Y</enabled> </hop>
+  <hop> <from>Write to log 2</from><to>Table MOBILEUM_AS_AUX output</to><enabled>Y</enabled> </hop>
   </order>
   <step>
-    <name>Copy rows to result</name>
-    <type>RowsToResult</type>
+    <name>Add Status Ok constant</name>
+    <type>Constant</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -136,17 +131,275 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
+    <fields>
+      <field>
+        <name>status</name>
+        <type>Number</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif>0</nullif>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>624</xloc>
+      <xloc>432</xloc>
+      <yloc>304</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>CSV file input</name>
+    <type>CsvInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <filename/>
+    <filename_field>NOMBRE_CSV</filename_field>
+    <rownum_field/>
+    <include_filename>Y</include_filename>
+    <separator>,</separator>
+    <enclosure>&#x22;</enclosure>
+    <header>Y</header>
+    <buffer_size>50000</buffer_size>
+    <lazy_conversion>Y</lazy_conversion>
+    <add_filename_result>Y</add_filename_result>
+    <parallel>N</parallel>
+    <newline_possible>N</newline_possible>
+    <encoding>UTF-8</encoding>
+    <fields>
+      <field>
+        <name>fecha</name>
+        <type>String</type>
+        <format>dd&#x2f;mm&#x2f;yyyy hh&#x3a;mm&#x3a;ss</format>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>CNT_LLAMADAS</name>
+        <type>Number</type>
+        <format>&#x23;</format>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>CNT_POLITICA_RESTRICCION</name>
+        <type>Number</type>
+        <format>&#x23;</format>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>CNT_BOLQ_REL_TIPO_GEST</name>
+        <type>Number</type>
+        <format>&#x23;</format>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>CNT_BLOQ_RAN_REL</name>
+        <type>Number</type>
+        <format>&#x23;</format>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>CNT_PERMITIERON_CONTINUAR</name>
+        <type>Number</type>
+        <format>&#x23;</format>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>CNT_CONECTADAS_VOICE_MAIL</name>
+        <type>Number</type>
+        <format>&#x23;</format>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>CNT_CONECTADA_ANUNCIO_SWITCH</name>
+        <type>Number</type>
+        <format>&#x23;</format>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+    </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>528</xloc>
       <yloc>144</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>File Names From FILES Table</name>
-    <type>TableInput</type>
+    <name>Get NOMBRE_CSV from result</name>
+    <type>RowsFromResult</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <fields>      <field>        <name>NOMBRE_CSV</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        </field>      </fields>     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>112</xloc>
+      <yloc>144</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Get Sysdate Info</name>
+    <type>SystemInfo</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <fields>
+      <field>
+        <name>fecha_up</name>
+        <type>system date &#x28;variable&#x29;</type>
+        </field>
+      </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>608</xloc>
+      <yloc>304</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Table MOBILEUM_AS_AUX output</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <connection>falda.claro.amx</connection>
+    <schema>&#x24;&#x7b;DB-SCHEMA&#x7d;</schema>
+    <table>MOBILEUM_ASP_AUX</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>Y</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+        <field>
+          <column_name>FECHA</column_name>
+          <stream_name>fecha</stream_name>
+        </field>
+        <field>
+          <column_name>CNT_LLAMADAS</column_name>
+          <stream_name>CNT_LLAMADAS</stream_name>
+        </field>
+        <field>
+          <column_name>CNT_POLITICA_RESTRICCION</column_name>
+          <stream_name>CNT_POLITICA_RESTRICCION</stream_name>
+        </field>
+        <field>
+          <column_name>CNT_BOLQ_REL_TIPO_GEST</column_name>
+          <stream_name>CNT_BOLQ_REL_TIPO_GEST</stream_name>
+        </field>
+        <field>
+          <column_name>CNT_BLOQ_RAN_REL</column_name>
+          <stream_name>CNT_BLOQ_RAN_REL</stream_name>
+        </field>
+        <field>
+          <column_name>CNT_PERMITIERON_CONTINUAR</column_name>
+          <stream_name>CNT_PERMITIERON_CONTINUAR</stream_name>
+        </field>
+        <field>
+          <column_name>CNT_CONECTADAS_VOICE_MAIL</column_name>
+          <stream_name>CNT_CONECTADAS_VOICE_MAIL</stream_name>
+        </field>
+        <field>
+          <column_name>CNT_CONECTADA_ANUNCIO_SWITCH</column_name>
+          <stream_name>CNT_CONECTADA_ANUNCIO_SWITCH</stream_name>
+        </field>
+        <field>
+          <column_name>ARCHIVO</column_name>
+          <stream_name>NOMBRE_CSV</stream_name>
+        </field>
+    </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>736</xloc>
+      <yloc>144</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Update Ok</name>
+    <type>Update</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -156,16 +409,33 @@
            <schema_name/>
            </partitioning>
     <connection>falda.claro.amx</connection>
-    <sql>SELECT nombre_csv&#xa;FROM files&#xa;WHERE status &#x3d; 5&#xa;AND procesado is null&#xa;AND nombre_csv like &#x27;&#x25;&#x2f;MobileumASP&#x2f;hourly_stats&#x2f;&#x25;&#x27;&#xa;AND row_num &#x21;&#x3d; 0</sql>
-    <limit>0</limit>
-    <lookup/>
-    <execute_each_row>N</execute_each_row>
-    <variables_active>N</variables_active>
-    <lazy_conversion_active>Y</lazy_conversion_active>
+    <skip_lookup>N</skip_lookup>
+    <commit>100</commit>
+    <use_batch>N</use_batch>
+    <error_ignored>N</error_ignored>
+    <ignore_flag_field/>
+    <lookup>
+      <schema>&#x24;&#x7b;DB-SCHEMA&#x7d;</schema>
+      <table>FILES</table>
+      <key>
+        <name>NOMBRE_CSV</name>
+        <field>NOMBRE_CSV</field>
+        <condition>&#x3d;</condition>
+        <name2/>
+        </key>
+      <value>
+        <name>STATUS</name>
+        <rename>status</rename>
+        </value>
+      <value>
+        <name>PROCESADO</name>
+        <rename>fecha_up</rename>
+        </value>
+      </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>112</xloc>
-      <yloc>144</yloc>
+      <xloc>256</xloc>
+      <yloc>304</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -185,7 +455,7 @@
       <displayHeader>Y</displayHeader>
       <limitRows>N</limitRows>
       <limitRowsNumber>0</limitRowsNumber>
-      <logmessage>Nombre_csv from FILES table&#x3a;</logmessage>
+      <logmessage>Nombre_csv from result&#x3a;</logmessage>
     <fields>
       <field>
         <name>NOMBRE_CSV</name>
@@ -193,13 +463,78 @@
       </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>368</xloc>
+      <xloc>336</xloc>
       <yloc>144</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
+  <step>
+    <name>Write to log 2</name>
+    <type>WriteToLog</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+      <loglevel>log_level_basic</loglevel>
+      <displayHeader>Y</displayHeader>
+      <limitRows>N</limitRows>
+      <limitRowsNumber>0</limitRowsNumber>
+      <logmessage>From csv file&#x3a;</logmessage>
+    <fields>
+      <field>
+        <name>fecha</name>
+        </field>
+      <field>
+        <name>CNT_LLAMADAS</name>
+        </field>
+      <field>
+        <name>CNT_POLITICA_RESTRICCION</name>
+        </field>
+      <field>
+        <name>CNT_BOLQ_REL_TIPO_GEST</name>
+        </field>
+      <field>
+        <name>CNT_BLOQ_RAN_REL</name>
+        </field>
+      <field>
+        <name>CNT_PERMITIERON_CONTINUAR</name>
+        </field>
+      <field>
+        <name>CNT_CONECTADAS_VOICE_MAIL</name>
+        </field>
+      <field>
+        <name>CNT_CONECTADA_ANUNCIO_SWITCH</name>
+        </field>
+      <field>
+        <name>NOMBRE_CSV</name>
+        </field>
+      </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>640</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
   <step_error_handling>
+      <error>
+        <source_step>Table MOBILEUM_AS_AUX output</source_step>
+        <target_step/>
+        <is_enabled>N</is_enabled>
+        <nr_valuename>nroErrors</nr_valuename>
+        <descriptions_valuename>errDesc</descriptions_valuename>
+        <fields_valuename>errFieldName</fields_valuename>
+        <codes_valuename>errCode</codes_valuename>
+        <max_errors/>
+        <max_pct_errors/>
+        <min_pct_rows/>
+      </error>
   </step_error_handling>
    <slave-step-copy-partition-distribution>
 </slave-step-copy-partition-distribution>
